@@ -1,13 +1,15 @@
 """One-line roast of a fridge.
 
 Writes a single original one-line roast to /output/entry.txt.
-The line was picked by duelling six drafts pairwise against the bounty
-criteria (a real one-line roast, sharp surprising punchline, clear on
-one read, fresh, tight wording). The winner uses the meta pattern: an
-agent that was supposed to restock the fridge, per AGENTS.md, and did
-not — leaving one egg and a lie.
+Six drafts were duelled pairwise against the bounty criteria (a real
+one-line roast, sharp surprising punchline, clear on one read, fresh,
+tight wording). The winner uses the meta pattern: an agent that was
+supposed to restock the fridge, per AGENTS.md, and did not — leaving
+one egg and a lie.
 """
 
+# The bounty scores exactly one line, so the entry is kept as a single
+# string: no second line, no trailing joke, nothing after the punchline.
 ENTRY = (
     "Per AGENTS.md, the fridge was supposed to be restocked; "
     "it now stores one egg and a lie."
